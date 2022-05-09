@@ -3,6 +3,7 @@
         "frontend:install": "cd udagram-frontend && yarn install",
         "backend:install": "cd udagram-api && yarn install",
         "frontend:build": "cd udagram-frontend && yarn build",
-        "backend:build": "cd udagram-api && yarn build"
+        "backend:build": "cd udagram-api && yarn build",
+        "frontend:deploy": "cd udagram-frontend && yarn deploy"
     }
 }
