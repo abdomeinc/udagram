@@ -7,8 +7,10 @@ jobs:
     docker:
       - image: "cimg/base:stable"
     steps:
-      - node/install
       - checkout
+      - node/install:
+          install-yarn: true
+          node-version: '16.14.0'
       - node/install-yarn:
           version: 1.22.4
       - run: node --version
