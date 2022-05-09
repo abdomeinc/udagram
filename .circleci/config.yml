@@ -9,6 +9,10 @@ jobs:
     steps:
       - node/install
       - checkout
+      - node/install-yarn:
+          version: 1.22.4
+      - run: node --version
+      - run: yarn
       - run:
           name: Front-End Install
           command: |
