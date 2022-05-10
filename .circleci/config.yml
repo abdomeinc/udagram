@@ -43,4 +43,4 @@ jobs:
       - run:
           name: Signature
           command: |
-            echo "Abdel Moumen Abdel Raouf Abdullah [Ali Al-Masry]"
+            echo "Abdel Moumen Abdel Raouf Abdullah [Ali Al-Masry] - Nick Name"
