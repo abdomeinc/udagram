@@ -44,6 +44,11 @@ Provision the necessary AWS services needed for running the application:
 ## Screenshots
 - [Click Here](https://github.com/AbdoMeInc/udagram/tree/main/egyfwd-screenshots) - for EgyFwd nano-degree course purpose.
 
+## Documentation
+- [App Infrastructure](egyfwd-documentation/App-Infrastructure.md)
+- [App Dependencies](egyfwd-documentation/App-Dependencies.md)
+- [App Pipeline](egyfwd-documentation/App-Pipeline.md)
+
 ## Testing
 
 This project contains two different test suite: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
