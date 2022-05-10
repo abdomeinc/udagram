@@ -6,7 +6,7 @@ orbs:
 workflows:
   egyfwd-3:
     jobs:
-      - build-egyfwd:
+      - build:
           filters:
             branches:
               only:
